@@ -11,6 +11,7 @@ const configMariaDB = {
     },
     pool: { min: 0, max: 7 }
   }
+  
 
 const dbMariadb = knex(configMariaDB)
 
